@@ -8,10 +8,15 @@ struct CountsByUsage
   int highCount;
 };
 
-struct CountsByUsage countBatteriesByUsage(const int* cycles, int* nBatteries) 
+struct CountsByUsage counts 
 {
   struct CountsByUsage counts = {0, 0, 0};
   return counts;
+};
+struct BatteriesByUsage(const int* cycles, int* nBatteries) 
+{ 
+  int cycles;
+  int nBatteries;
 };
 
 void testBucketingByNumberOfCycles() 
