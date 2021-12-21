@@ -8,9 +8,9 @@ struct CountsByUsage
   int highCount;
 };
 
-struct CountsByUsage counts 
+struct CountsByUsagecounts 
 {
-  struct CountsByUsage counts = {0, 0, 0};
+  struct CountsByUsagecounts = {0, 0, 0};
   return counts;
 };
 struct BatteriesByUsage(const int* cycles, int* nBatteries) 
